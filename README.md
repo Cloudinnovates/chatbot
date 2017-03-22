@@ -45,8 +45,7 @@ It recognizes commands in sentences.
 It can output images, redirect you to websites, respond with a yes or no question and output according to your answer.
 ***
 ## Known bugs:
-- When output has an image the automatic down scrolling breaks
-- Double commands outputs both outputs
+- Check out the issues section.
 
 by Mees Rutten, 2017
 @MeesRutten
