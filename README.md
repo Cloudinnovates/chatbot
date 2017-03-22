@@ -7,32 +7,48 @@ I started this as a little project for my portfolio, but it turned into a school
 The bot works by checking the input a user sends.
 Once the bot knows what input is given, it will check if the input is the same as one of the pre programmed commands.
 If that's the case then the bot will output what corresponds the input.
-If the input is not a command then the bot will output something like: "I didn't quite get that"
+If the input is not a command then the bot will output something like: "I didn't quite get that".
+
 I've added some responses to certain commands. After an input the bot will ask you a "yes or no" question to which you can respond.
 Example: when the command "about" is given, the bot will ask "Would you like to know about Mees' vision? (Yes/No)". If the answer is "yes" the bot will output more, if not it resets.
 
-***
-Current commands with outputs:
-- help
-- about
-- best work
-- vision
-- experience
-- CV
-- hobbies or interests
-- contact
-- rick roll (just try it)
+It's built with a premade gulpfile and directory setup called Yeoman Web-app generator
 
 ***
-Things I still want to add:
-- //Fixed on Jan 8// Sentence recognition
-- //Fixed on Jan 8// Using functions as output (to redirect people on my website)
-- //Fixed// Being able to conversate by outputting a question on which you could respond again.
-- Sentences with more than one command
-- Some easter eggs like jokes and gifs as output
+##Live:
+###See it in action on (http://meesrutten.me "my portfolio website")
+***
 
 ***
-Known bugs:
+##How to install:
+On commandline:
+Into a fresh directory
+###`git clone https://github.com/meesrutten/chatbot`
+Then:
+###`cd chatbot` && npm install && bower install
+To start it:
+###`gulp serve`
+***
+
+***
+##Current commands with outputs:
+###- help
+###- about
+###- best work
+###- vision
+###- experience
+###- CV
+###- hobbies or interests
+###- contact
+###- rick roll (just try it)
+
+***
+##Features:
+You can send a command to the bot to which it will respond with a corresponding answer or a message that it doesn't recognize the input.
+It recognizes commands in sentences.
+It can output images, redirect you to websites, respond with a yes or no question and output according to your answer.
+***
+##Known bugs:
 - When output has an image the automatic down scrolling breaks
 - Double commands outputs both outputs
 

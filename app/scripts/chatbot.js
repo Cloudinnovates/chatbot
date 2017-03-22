@@ -14,11 +14,11 @@ var sendForm = document.querySelector('#chatform'),
     isReaction = false,
     unkwnCommReaction = "I didn't quite get that.";
 
-//fixed that when you scroll to end it doesnt scroll window
+// //fixed that when you scroll to end it doesnt scroll window
 // chatList.addEventListener('mouseover', function(){
 //   document.body.style.overflow='hidden';
 // })
-//
+// //
 // chatList.addEventListener('mouseout', function(){
 //   document.body.style.overflow='auto';
 //   document.body.style.overflowX='hidden';
