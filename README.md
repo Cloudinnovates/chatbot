@@ -23,7 +23,7 @@ On commandline:
 Into a fresh directory
 ### `git clone https://github.com/meesrutten/chatbot`
 Then:
-### `cd chatbot` && npm install && bower install
+### `cd chatbot && npm install && bower install`
 To start it:
 ### `gulp serve`
 
