@@ -16,10 +16,8 @@ It's built with a premade gulpfile and directory setup called Yeoman Web-app gen
 
 ***
 ## Live:
-### See it in action on (http://meesrutten.me "my portfolio website")
-***
+### See it in action on [my portfolio website] (http://meesrutten.me)
 
-***
 ## How to install:
 On commandline:
 Into a fresh directory
@@ -28,9 +26,7 @@ Then:
 ### `cd chatbot` && npm install && bower install
 To start it:
 ### `gulp serve`
-***
 
-***
 ## Current commands with outputs:
 ### - help
 ### - about
