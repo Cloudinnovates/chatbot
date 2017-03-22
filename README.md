@@ -15,40 +15,40 @@ Example: when the command "about" is given, the bot will ask "Would you like to 
 It's built with a premade gulpfile and directory setup called Yeoman Web-app generator
 
 ***
-##Live:
-###See it in action on (http://meesrutten.me "my portfolio website")
+## Live:
+### See it in action on (http://meesrutten.me "my portfolio website")
 ***
 
 ***
-##How to install:
+## How to install:
 On commandline:
 Into a fresh directory
-###`git clone https://github.com/meesrutten/chatbot`
+### `git clone https://github.com/meesrutten/chatbot`
 Then:
-###`cd chatbot` && npm install && bower install
+### `cd chatbot` && npm install && bower install
 To start it:
-###`gulp serve`
+### `gulp serve`
 ***
 
 ***
-##Current commands with outputs:
-###- help
-###- about
-###- best work
-###- vision
-###- experience
-###- CV
-###- hobbies or interests
-###- contact
-###- rick roll (just try it)
+## Current commands with outputs:
+### - help
+### - about
+### - best work
+### - vision
+### - experience
+### - CV
+### - hobbies or interests
+### - contact
+### - rick roll (just try it)
 
 ***
-##Features:
+## Features:
 You can send a command to the bot to which it will respond with a corresponding answer or a message that it doesn't recognize the input.
 It recognizes commands in sentences.
 It can output images, redirect you to websites, respond with a yes or no question and output according to your answer.
 ***
-##Known bugs:
+## Known bugs:
 - When output has an image the automatic down scrolling breaks
 - Double commands outputs both outputs
 
