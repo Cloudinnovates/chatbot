@@ -16,7 +16,7 @@ It's built with a premade gulpfile and directory setup called Yeoman Web-app gen
 
 ***
 ## Live:
-### See it in action on [my portfolio website] (http://meesrutten.me)
+### See it in action on [my portfolio website](http://meesrutten.me)
 
 ## How to install:
 On commandline:
