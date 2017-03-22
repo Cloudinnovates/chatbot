@@ -245,6 +245,7 @@ var possibleInput = {
     },
   "best work" : function(){
     responseText("I will show you Mees' best work!");
+    //These links will scroll you to another link with #animation or #projects
     responseText("These are his <a href='#animation'>best animations</a>")
     responseText("These are his <a href='#projects'>best projects</a>")
     responseText("Would you like to see how I was built? (Yes/No)")
@@ -254,6 +255,7 @@ var possibleInput = {
     },
   "about" : function(){
     responseText("This is me, Navvy's maker, Mees Rutten");
+    //Outputs an image
     responseImg("rsz_meesface.jpg");
     responseText("I'm a 20 year old Communication and Multimedia Design student");
     responseText("My ambition is to become a great Creative Front-End Developer");
@@ -289,6 +291,7 @@ var possibleInput = {
   },
   "cv" : function(){
     responseText("I will redirect you to Mees' CV");
+    //Redirects you to an image
     setTimeout(function(){
       window.location.href = "/images/CV-MeesRutten-2017-februari.png"; }, 3000);
     commandReset(6);

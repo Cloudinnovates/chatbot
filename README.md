@@ -4,10 +4,12 @@ I'm making a native JS bot that could be used as a way to guide you through a we
 
 I started this as a little project for my portfolio, but it turned into a school project aswell.
 
-The bot works by checking the input a user creates.
+The bot works by checking the input a user sends.
 Once the bot knows what input is given, it will check if the input is the same as one of the pre programmed commands.
 If that's the case then the bot will output what corresponds the input.
 If the input is not a command then the bot will output something like: "I didn't quite get that"
+I've added some responses to certain commands. After an input the bot will ask you a "yes or no" question to which you can respond.
+Example: when the command "about" is given, the bot will ask "Would you like to know about Mees' vision? (Yes/No)". If the answer is "yes" the bot will output more, if not it resets.
 
 ***
 Current commands with outputs:
