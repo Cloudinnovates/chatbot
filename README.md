@@ -11,16 +11,21 @@ If the input is not a command then the bot will output something like: "I didn't
 
 ***
 Current commands with outputs:
-- help (string)
-- about (string)
-- best work (outputs from a function)
+- help
+- about
+- best work
+- vision
+- experience
+- CV
+- hobbies or interests
+- contact
 - rick roll (just try it)
 
 ***
 Things I still want to add:
 - //Fixed on Jan 8// Sentence recognition
 - //Fixed on Jan 8// Using functions as output (to redirect people on my website)
-- Being able to conversate by outputting a question on which you could respond again.
+- //Fixed// Being able to conversate by outputting a question on which you could respond again.
 - Sentences with more than one command
 - Some easter eggs like jokes and gifs as output
 
