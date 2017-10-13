@@ -17,15 +17,7 @@ It's built with a premade gulpfile and directory setup called Yeoman Web-app gen
 ***
 ## Live:
 ### See it in action on [my portfolio website](http://meesrutten.me)
-
-## How to install:
-On commandline:
-Into a fresh directory
-### `git clone https://github.com/meesrutten/chatbot`
-Then:
-### `cd chatbot && npm install && bower install`
-To start it:
-### `gulp serve`
+### Or check out the most up to date version on [my CodePen](https://codepen.io/meesrutten/full/wgvpQM/)
 
 ## Current commands with outputs:
 ### - help
@@ -40,9 +32,10 @@ To start it:
 
 ***
 ## Features:
-You can send a command to the bot to which it will respond with a corresponding answer or a message that it doesn't recognize the input.
-It recognizes commands in sentences.
-It can output images, redirect you to websites, respond with a yes or no question and output according to your answer.
+- You can send a command to the bot to which it will respond with a corresponding answer or a message that it doesn't recognize the input.
+- It recognizes commands in sentences.
+- It can output images, redirect you to websites, respond with a yes or no question and output according to your answer.
+- The bot has a Levenshtein formula for recognizing spelling errors
 ***
 ## Known bugs:
 - Check out the issues section.
